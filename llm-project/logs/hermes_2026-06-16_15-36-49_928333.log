@@ -1,0 +1,45 @@
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: delegate_task (toolset=core)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: clarify (toolset=core)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: memory (toolset=core)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: code_execution (toolset=core)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: send_message (toolset=core)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: run_command (toolset=terminal)
+2026-06-16 15:36:49.963 | DEBUG    | src.tools.registry:register:26 - 注册工具: read_file (toolset=file)
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:register:26 - 注册工具: web_search (toolset=web)
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: delegate_task
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: clarify
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: memory
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: code_execution
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: send_message
+2026-06-16 15:36:49.965 | DEBUG    | src.tools.registry:get_tools_for_child:67 - 子 Agent 工具集 ['terminal', 'file', 'web'] → 可用工具: ['run_command', 'read_file', 'web_search']
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: delegate_task (toolset=core)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: clarify (toolset=core)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: memory (toolset=core)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: code_execution (toolset=core)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: send_message (toolset=core)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: run_command (toolset=terminal)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: read_file (toolset=file)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:register:26 - 注册工具: web_search (toolset=web)
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: delegate_task
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: clarify
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: memory
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: code_execution
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:60 - 子 Agent 禁用工具: send_message
+2026-06-16 15:36:49.966 | DEBUG    | src.tools.registry:get_tools_for_child:67 - 子 Agent 工具集 ['terminal'] → 可用工具: ['run_command']
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: delegate_task (toolset=core)
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: clarify (toolset=core)
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: memory (toolset=core)
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: code_execution (toolset=core)
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: send_message (toolset=core)
+2026-06-16 15:36:49.968 | DEBUG    | src.tools.registry:register:26 - 注册工具: run_command (toolset=terminal)
+2026-06-16 15:36:49.969 | DEBUG    | src.tools.registry:register:26 - 注册工具: read_file (toolset=file)
+2026-06-16 15:36:49.969 | DEBUG    | src.tools.registry:register:26 - 注册工具: web_search (toolset=web)
+2026-06-16 15:36:49.970 | DEBUG    | src.core.interrupt:register_child:32 - 注册子 Agent 中断事件: child-1
+2026-06-16 15:36:49.970 | DEBUG    | src.core.interrupt:register_child:32 - 注册子 Agent 中断事件: child-2
+2026-06-16 15:36:49.970 | WARNING  | src.core.interrupt:interrupt_all:49 - 🛑 中断传播：已中断 2 个子 Agent
+2026-06-16 15:36:49.972 | WARNING  | src.core.interrupt:interrupt_all:49 - 🛑 中断传播：已中断 0 个子 Agent
+2026-06-16 15:36:49.972 | DEBUG    | src.core.interrupt:register_child:32 - 注册子 Agent 中断事件: late-child
+2026-06-16 15:36:49.973 | WARNING  | src.core.interrupt:interrupt_all:49 - 🛑 中断传播：已中断 0 个子 Agent
+2026-06-16 15:36:49.975 | DEBUG    | src.core.interrupt:register_child:32 - 注册子 Agent 中断事件: child-1
+2026-06-16 15:36:52.576 | DEBUG    | src.llm.provider:__init__:43 - LLMProvider 初始化: model=claude-sonnet-4-5, provider=anthropic
+2026-06-16 15:36:57.194 | DEBUG    | src.llm.provider:__init__:43 - LLMProvider 初始化: model=gpt-4o, provider=openai

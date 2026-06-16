@@ -1,0 +1,13 @@
+# 严格对应文档 config.yaml 结构
+delegation:
+  max_iterations: 50                              # 每个子 Agent 最大轮次
+  default_toolsets: ["terminal", "file", "web"]  # 默认工具集
+  model: null                                     # 子 Agent 模型覆盖（null=继承父）
+  provider: null                                  # 子 Agent provider 覆盖
+  base_url: null                                  # 自定义端点
+  api_key: null                                   # 自定义密钥
+
+agent:
+  model: "claude-sonnet-4-5"
+  provider: "anthropic"
+  max_iterations: 100                             # 父 Agent 最大轮次
